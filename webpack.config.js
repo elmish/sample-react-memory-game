@@ -18,10 +18,10 @@ module.exports = {
   entry: resolve('./MemoryGame.fsproj'),
   output: {
     filename: 'bundle.js',
-    path: resolve('./docs'),
+    path: resolve('./public'),
   },
   devServer: {
-    contentBase: resolve('./docs'),
+    contentBase: resolve('./public'),
     port: 8080
   },
   module: {

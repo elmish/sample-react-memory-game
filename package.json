@@ -4,12 +4,11 @@
   "description": "Simple Fable App",
   "scripts": {
     "build": "webpack -p",
-    "start": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Zaid Ajaj",
+  "license": "MIT",
   "dependencies": {
     "babel-runtime": "^6.23.0",
     "fable-core": "1.0.0-narumi-909",
