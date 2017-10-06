@@ -8,21 +8,17 @@
 **/npm/
 npm-debug.log
 samples/**/public
-
+node_modules
 .vscode/
 
 # F#
 .fake/
-.paket/paket.exe
 packages/
 build/
 obj
 bin
 out
-
-# git
-*.orig
-samples/react-native/navigation/windows/
+paket-files
 
 .vs
 
